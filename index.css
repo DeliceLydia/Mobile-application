@@ -1,0 +1,194 @@
+body {
+  font-family: Verdana, sans-serif;
+  font-size: 15px;
+  line-height: 1.5;
+  color: #000;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.padding {
+  padding: 8px 16px;
+}
+
+#arch {
+  color: #f1f1f1;
+}
+
+.between{
+  justify-content: space-between;
+}
+
+.people {
+  width: 24%;
+}
+
+.about-pics {
+  justify-content: space-around;
+}
+
+
+input {
+  display: block;
+  width: 90%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  margin-top: 16px;
+  margin-bottom: 16px;
+}
+
+.map img{
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+
+.absolute {
+  position: absolute;
+  left: 0;
+  top: 0;
+  background-color: black;
+  color: #fff;
+}
+
+#submit {
+  background-color: #000;
+  color: #fff;
+  border: none;
+  display: inline-block;
+  margin-top: 16px;
+  margin-bottom: 50px;
+}
+
+.flex {
+  display: flex;
+  flex-direction: row;
+
+}
+
+.wrap {
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.relative {
+  position: relative;
+}
+
+.br {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  text-align: center;
+}
+
+.img {
+  width: 24%;
+}
+
+h3 {
+  font-size: 24px;
+  font-weight: 400;
+  margin: 10px 0;
+}
+
+.nav li{
+  padding-right: 20px;
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+nav ul li { 
+  list-style: none;
+}
+
+b {
+  font-weight: bolder;
+}
+
+footer {
+  background-color: #000;
+  color: #fff;
+  text-align: center;
+  margin-bottom: -22px;
+}
+
+footer a {
+  color: #fff;
+}
+
+  @media only screen and (max-width: 800px) {
+    .flex {
+      display: flex;
+      flex-direction: column;
+    }
+
+    .background {
+      margin-top: 50%;
+    }
+    
+    .map img{
+      width: 100%;
+      height: 100%;
+      object-fit: contain;
+    }
+    
+    header {
+      border: 1px solid #fff;
+      position: fixed;
+      width: 100%;
+      background-color: #fff;
+      box-shadow: 0 2px 5px 0 #fff;
+      top: 0;
+    }
+    
+    h2 {
+      padding-top: 16px;
+      padding-bottom: 16px;
+      border-color: #f1f1f1;
+      border-bottom: 1px solid #ccc;
+    }
+    
+    
+    #br {
+      background-color: #000;
+      color: #fff;
+      padding: 8px 16px;
+      opacity: 0.75;
+    }
+    
+    .br {
+      top: 40%;
+    }
+
+    .people {
+      width: 100%;
+    }
+    
+    .people .title {
+      opacity: 0.60;
+    }
+    
+    .people button {
+      background-color: #f1f1f1;
+      border: none;
+      padding: 8px 16px;
+      width: 100%;
+    }
+
+    .form {
+      width: 100%;
+    }
+
+    .img {
+      width: 100%;
+    }
+    
+  }
